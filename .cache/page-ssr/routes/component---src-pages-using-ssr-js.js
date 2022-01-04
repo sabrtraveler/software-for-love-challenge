@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "../../node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3649515864.json */ "./public/page-data/sq/d/3649515864.json");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "../../node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ "./src/components/header.js");
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./layout.css */ "./src/components/layout.css");
@@ -167,9 +167,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_page_data_sq_d_63159454_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/63159454.json */ "./public/page-data/sq/d/63159454.json");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "../../node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ "../../node_modules/react-helmet/es/Helmet.js");
 
 
 /**
@@ -262,7 +262,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
 /* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/navbar */ "./src/components/navbar.js");
-/* provided dependency */ var fetch = __webpack_require__(/*! ./node_modules/node-fetch/lib/index.js */ "./node_modules/node-fetch/lib/index.js");
+/* provided dependency */ var fetch = __webpack_require__(/*! ../../node_modules/node-fetch/lib/index.js */ "../../node_modules/node-fetch/lib/index.js");
 
 
 
@@ -310,10 +310,10 @@ async function getServerData() {
 
 /***/ }),
 
-/***/ "./node_modules/node-fetch/lib/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/node-fetch/lib/index.js ***!
-  \**********************************************/
+/***/ "../../node_modules/node-fetch/lib/index.js":
+/*!**************************************************!*\
+  !*** ../../node_modules/node-fetch/lib/index.js ***!
+  \**************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -326,7 +326,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var Stream = _interopDefault(__webpack_require__(/*! stream */ "stream"));
 var http = _interopDefault(__webpack_require__(/*! http */ "http"));
 var Url = _interopDefault(__webpack_require__(/*! url */ "url"));
-var whatwgUrl = _interopDefault(__webpack_require__(/*! whatwg-url */ "./node_modules/whatwg-url/lib/public-api.js"));
+var whatwgUrl = _interopDefault(__webpack_require__(/*! whatwg-url */ "../../node_modules/whatwg-url/lib/public-api.js"));
 var https = _interopDefault(__webpack_require__(/*! https */ "https"));
 var zlib = _interopDefault(__webpack_require__(/*! zlib */ "zlib"));
 
@@ -2002,17 +2002,17 @@ exports.FetchError = FetchError;
 
 /***/ }),
 
-/***/ "./node_modules/tr46/index.js":
-/*!************************************!*\
-  !*** ./node_modules/tr46/index.js ***!
-  \************************************/
+/***/ "../../node_modules/tr46/index.js":
+/*!****************************************!*\
+  !*** ../../node_modules/tr46/index.js ***!
+  \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
 var punycode = __webpack_require__(/*! punycode */ "punycode");
-var mappingTable = __webpack_require__(/*! ./lib/mappingTable.json */ "./node_modules/tr46/lib/mappingTable.json");
+var mappingTable = __webpack_require__(/*! ./lib/mappingTable.json */ "../../node_modules/tr46/lib/mappingTable.json");
 
 var PROCESSING_OPTIONS = {
   TRANSITIONAL: 0,
@@ -2206,10 +2206,10 @@ module.exports.PROCESSING_OPTIONS = PROCESSING_OPTIONS;
 
 /***/ }),
 
-/***/ "./node_modules/webidl-conversions/lib/index.js":
-/*!******************************************************!*\
-  !*** ./node_modules/webidl-conversions/lib/index.js ***!
-  \******************************************************/
+/***/ "../../node_modules/webidl-conversions/lib/index.js":
+/*!**********************************************************!*\
+  !*** ../../node_modules/webidl-conversions/lib/index.js ***!
+  \**********************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -2406,15 +2406,15 @@ conversions["RegExp"] = function (V, opts) {
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-url/lib/URL-impl.js":
-/*!*************************************************!*\
-  !*** ./node_modules/whatwg-url/lib/URL-impl.js ***!
-  \*************************************************/
+/***/ "../../node_modules/whatwg-url/lib/URL-impl.js":
+/*!*****************************************************!*\
+  !*** ../../node_modules/whatwg-url/lib/URL-impl.js ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-const usm = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js");
+const usm = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js");
 
 exports.implementation = class URLImpl {
   constructor(constructorArgs) {
@@ -2617,18 +2617,18 @@ exports.implementation = class URLImpl {
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-url/lib/URL.js":
-/*!********************************************!*\
-  !*** ./node_modules/whatwg-url/lib/URL.js ***!
-  \********************************************/
+/***/ "../../node_modules/whatwg-url/lib/URL.js":
+/*!************************************************!*\
+  !*** ../../node_modules/whatwg-url/lib/URL.js ***!
+  \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-const conversions = __webpack_require__(/*! webidl-conversions */ "./node_modules/webidl-conversions/lib/index.js");
-const utils = __webpack_require__(/*! ./utils.js */ "./node_modules/whatwg-url/lib/utils.js");
-const Impl = __webpack_require__(/*! .//URL-impl.js */ "./node_modules/whatwg-url/lib/URL-impl.js");
+const conversions = __webpack_require__(/*! webidl-conversions */ "../../node_modules/webidl-conversions/lib/index.js");
+const utils = __webpack_require__(/*! ./utils.js */ "../../node_modules/whatwg-url/lib/utils.js");
+const Impl = __webpack_require__(/*! .//URL-impl.js */ "../../node_modules/whatwg-url/lib/URL-impl.js");
 
 const impl = utils.implSymbol;
 
@@ -2824,38 +2824,38 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-url/lib/public-api.js":
-/*!***************************************************!*\
-  !*** ./node_modules/whatwg-url/lib/public-api.js ***!
-  \***************************************************/
+/***/ "../../node_modules/whatwg-url/lib/public-api.js":
+/*!*******************************************************!*\
+  !*** ../../node_modules/whatwg-url/lib/public-api.js ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 
-exports.URL = __webpack_require__(/*! ./URL */ "./node_modules/whatwg-url/lib/URL.js")["interface"];
-exports.serializeURL = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeURL;
-exports.serializeURLOrigin = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeURLOrigin;
-exports.basicURLParse = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").basicURLParse;
-exports.setTheUsername = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").setTheUsername;
-exports.setThePassword = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").setThePassword;
-exports.serializeHost = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeHost;
-exports.serializeInteger = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").serializeInteger;
-exports.parseURL = __webpack_require__(/*! ./url-state-machine */ "./node_modules/whatwg-url/lib/url-state-machine.js").parseURL;
+exports.URL = __webpack_require__(/*! ./URL */ "../../node_modules/whatwg-url/lib/URL.js")["interface"];
+exports.serializeURL = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").serializeURL;
+exports.serializeURLOrigin = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").serializeURLOrigin;
+exports.basicURLParse = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").basicURLParse;
+exports.setTheUsername = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").setTheUsername;
+exports.setThePassword = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").setThePassword;
+exports.serializeHost = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").serializeHost;
+exports.serializeInteger = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").serializeInteger;
+exports.parseURL = __webpack_require__(/*! ./url-state-machine */ "../../node_modules/whatwg-url/lib/url-state-machine.js").parseURL;
 
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-url/lib/url-state-machine.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/whatwg-url/lib/url-state-machine.js ***!
-  \**********************************************************/
+/***/ "../../node_modules/whatwg-url/lib/url-state-machine.js":
+/*!**************************************************************!*\
+  !*** ../../node_modules/whatwg-url/lib/url-state-machine.js ***!
+  \**************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 const punycode = __webpack_require__(/*! punycode */ "punycode");
-const tr46 = __webpack_require__(/*! tr46 */ "./node_modules/tr46/index.js");
+const tr46 = __webpack_require__(/*! tr46 */ "../../node_modules/tr46/index.js");
 
 const specialSchemes = {
   ftp: 21,
@@ -4154,10 +4154,10 @@ module.exports.parseURL = function (input, options) {
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-url/lib/utils.js":
-/*!**********************************************!*\
-  !*** ./node_modules/whatwg-url/lib/utils.js ***!
-  \**********************************************/
+/***/ "../../node_modules/whatwg-url/lib/utils.js":
+/*!**************************************************!*\
+  !*** ../../node_modules/whatwg-url/lib/utils.js ***!
+  \**************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -4185,10 +4185,10 @@ module.exports.implForWrapper = function (wrapper) {
 
 /***/ }),
 
-/***/ "./node_modules/tr46/lib/mappingTable.json":
-/*!*************************************************!*\
-  !*** ./node_modules/tr46/lib/mappingTable.json ***!
-  \*************************************************/
+/***/ "../../node_modules/tr46/lib/mappingTable.json":
+/*!*****************************************************!*\
+  !*** ../../node_modules/tr46/lib/mappingTable.json ***!
+  \*****************************************************/
 /***/ ((module) => {
 
 "use strict";
