@@ -57,6 +57,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  opacity: 50%;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -68,6 +69,7 @@ abbr[title] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 b,

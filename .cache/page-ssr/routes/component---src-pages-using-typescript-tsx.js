@@ -176,7 +176,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Navbar() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h1", null, "Gatsby Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
     className: "links"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
     to: "/"
