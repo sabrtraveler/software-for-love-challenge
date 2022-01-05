@@ -11,7 +11,7 @@ const IndexPage = () => (
     <Navbar />
     <Seo title="Home" />
     <h1>Dear viewer</h1>
-    <p>Welcome to the best challange you seen thus far.</p>
+    <p>Welcome to the best challenge you seen thus far.</p>
     <p>Let me know what you think.</p>
     <StaticImage
       src="../images/image.jpeg"

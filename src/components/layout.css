@@ -53,6 +53,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: royalblue;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -70,8 +72,6 @@ abbr[title] {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 16px;
-  text-decoration: none;
-  color: royalblue;
 }
 
 b,
