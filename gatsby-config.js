@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Software For Love Challenge`,
+    description: `Challenge for Software Developer position at Software For Love`,
+    author: `@sabrtraveler`,
+    siteUrl: `https://software-for-love-challenge-robert.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
