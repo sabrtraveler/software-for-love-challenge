@@ -10,11 +10,11 @@ const IndexPage = () => (
   <Layout>
     <Navbar />
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Dear viewer</h1>
+    <p>Welcome to the best challange you seen thus far.</p>
+    <p>Let me know what you think.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/image.jpeg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
@@ -22,10 +22,8 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link style={{color: 'royalblue'}} to="/page-2/">Go to page 2</Link> <br />
+      <Link style={{color: 'royalblue'}} to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
     </p>
   </Layout>
 )
